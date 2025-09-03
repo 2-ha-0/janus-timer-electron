@@ -1,0 +1,17 @@
+# node_modules 제외
+node_modules/
+
+# 빌드 산출물 제외
+dist/
+build/
+
+# 환경 변수 파일 제외
+.env
+
+# 로그 파일 제외
+*.log
+
+# OS / IDE 파일 제외
+.DS_Store
+Thumbs.db
+.vscode/
