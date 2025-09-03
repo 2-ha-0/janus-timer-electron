@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development electron .",
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/2-ha-0/janus-timer-electron#readme",
   "devDependencies": {
+    "cross-env": "^10.0.0",
     "electron": "^38.0.0"
   }
 }
